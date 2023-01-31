@@ -15,12 +15,13 @@ int main(int argc, const char* argv[])
 	print(DBL_DIG); //15
 	print(LDBL_DIG); //18
 	
-	float a = 1.1;
-	double b = 1.1;
-	long double c = 1.1;
-	printf("%.23lf\n", 1.1);
-	printf("%.23lf\n", a);
-	printf("%.23lf\n", b);
-	printf("%.23Lf\n", c);
+	float a = 1.55555555555555555;
+	double b = 1.55555555555555555;
+	long double c = 1.55555555555555555;
+	printf("%.50lf\n", 1.55555555555555555);
+	printf("%.50lf\n", a);
+	printf("%.50lf\n", b);
+	printf("%.50Lf\n", c);
+
 	return 0;
 }
