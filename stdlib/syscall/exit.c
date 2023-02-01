@@ -9,5 +9,7 @@ int main(int argc, const char* argv[])
 	// 终止当前进程，关闭所有相关的文件描述符，向父进程发送信号
 	exit(0);
 	exit(EXIT_SUCCESS);
+
+	printf("12313");
 	return 0;
 }

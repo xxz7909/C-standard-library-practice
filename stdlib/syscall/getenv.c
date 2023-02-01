@@ -3,9 +3,7 @@
 
 int main(int argc, const char* argv[])
 {
-	printf("EXIT_SUCCESS : %d\n", EXIT_SUCCESS);
-
-	printf("EXIT_FAILURE : %d\n", EXIT_FAILURE);
-
+	// 如果要获取的环境变量不存在就返回NULL
+	printf("%s\n", getenv("USER"));
 	return 0;
 }
