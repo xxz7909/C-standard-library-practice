@@ -3,6 +3,7 @@
 
 int main(int argc, const char* argv[])
 {
+	// 在a中检索第一个在b中出现的 字符偏移量
 	char str[50];
 	strcpy(str, "helloworld");
 	size_t pos = strcspn(str, "jkl");
